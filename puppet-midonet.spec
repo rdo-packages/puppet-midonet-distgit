@@ -14,7 +14,7 @@ Requires:       puppet-module_data
 Requires:       puppet-inifile
 Requires:       puppet-zookeeper
 Requires:       puppet-cassandra
-Requires:       puppet-apt
+#Requires:       puppet-apt
 Requires:       puppet-java
 Requires:       puppet-tomcat
 Requires:       puppet-stdlib
