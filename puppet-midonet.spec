@@ -10,7 +10,7 @@ Source0:        https://github.com/midonet/puppet-midonet/archive/%{version}.tar
 
 BuildArch:      noarch
 
-Requires:       puppet-module_data
+Requires:       puppet-module-data
 Requires:       puppet-inifile
 Requires:       puppet-zookeeper
 Requires:       puppet-cassandra
