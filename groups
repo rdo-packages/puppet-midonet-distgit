@@ -1,5 +1,5 @@
-# UUID          Group Name
-6ddfecad023c6f4fa3ac8c4d2583c502ea675a73 	Non-Interactive Users
-cd9488d8b6f486bf61478831df4bbb4a0551b0e1       	puppet-midonet-distgit-core
-c04b3b64b1d6590fc7cc57a1c958f3a64d618fdd        	puppet-midonet-distgit-ptl
-global:Registered-Users		Registered Users
+# UUID                                  	Group Name
+#
+c04b3b64b1d6590fc7cc57a1c958f3a64d618fdd	puppet/puppet-midonet-distgit-ptl
+cd9488d8b6f486bf61478831df4bbb4a0551b0e1	puppet-midonet-distgit-core
+global:Registered-Users                 	Registered Users
