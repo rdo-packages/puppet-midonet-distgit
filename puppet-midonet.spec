@@ -7,8 +7,8 @@
 
 
 Name:           puppet-midonet
-Version:        XXX
-Release:        XXX
+Version:        0.0.1
+Release:        0.1%{?alphatag}%{?dist}
 Summary:        Configure and install MidoNet components
 License:        Apache-2.0
 
@@ -56,4 +56,7 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/midonet/
 
 
 %changelog
+* Thu Sep 22 2016 Haikel Guemar <hguemar@fedoraproject.org> - 0.0.1-0.1..git
+- Newton update 0.0.1 ()
+
 
