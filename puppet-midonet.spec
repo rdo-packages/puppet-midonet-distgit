@@ -1,3 +1,11 @@
+%{!?upstream_version: %global upstream_version %{commit}}
+%define upstream_name puppet-midonet
+%global commit bafa9e9bc3e683cd3ceb2650eb174cf707a2837e
+%global shortcommit %(c=%{commit}; echo ${c:0:7})
+# DO NOT REMOVE ALPHATAG
+%global alphatag .%{shortcommit}git
+
+
 Name:           puppet-midonet
 Version:        XXX
 Release:        XXX
@@ -6,7 +14,7 @@ License:        Apache-2.0
 
 URL:            https://github.com/midonet/puppet-midonet
 
-Source0:        https://github.com/midonet/puppet-midonet/archive/%{version}.tar.gz
+Source0:        https://github.com/midonet/%{upstream_name}/archive/%{commit}.tar.gz#/%{upstream_name}-%{shortcommit}.tar.gz
 
 BuildArch:      noarch
 
@@ -24,7 +32,7 @@ Requires:       puppet >= 2.7.0
 Configure and install MidoNet components
 
 %prep
-%setup -q -n %{name}-%{version}
+%setup -q -n %{name}-%{upstream_version}
 
 find . -type f -name ".*" -exec rm {} +
 find . -size 0 -exec rm {} +
