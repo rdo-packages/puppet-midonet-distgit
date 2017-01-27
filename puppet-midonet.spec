@@ -10,7 +10,7 @@ Name:           puppet-midonet
 Version:        XXX
 Release:        XXX
 Summary:        Configure and install MidoNet components
-License:        Apache-2.0
+License:        ASL 2.0
 
 URL:            https://github.com/midonet/puppet-midonet
 
