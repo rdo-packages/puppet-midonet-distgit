@@ -7,6 +7,8 @@
 
 
 Name:           puppet-midonet
+# Bumped epoch after repo movement from github.com/midonet to github.com/openstack
+Epoch:          1
 Version:        XXX
 Release:        XXX
 Summary:        Configure and install MidoNet components
