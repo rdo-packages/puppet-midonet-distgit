@@ -1,22 +1,17 @@
-%{!?upstream_version: %global upstream_version %{commit}}
+%{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 %define upstream_name puppet-midonet
-%global commit bafa9e9bc3e683cd3ceb2650eb174cf707a2837e
-%global shortcommit %(c=%{commit}; echo ${c:0:7})
-# DO NOT REMOVE ALPHATAG
-%global alphatag .%{shortcommit}git
-
 
 Name:           puppet-midonet
 # Bumped epoch after repo movement from github.com/midonet to github.com/openstack
 Epoch:          1
-Version:        XXX
-Release:        XXX
+Version:        1.1.0
+Release:        1%{?dist}
 Summary:        Configure and install MidoNet components
 License:        ASL 2.0
 
 URL:            https://github.com/midonet/puppet-midonet
 
-Source0:        https://github.com/midonet/%{upstream_name}/archive/%{commit}.tar.gz#/%{upstream_name}-%{shortcommit}.tar.gz
+Source0:        https://github.com/openstack/%{upstream_name}/archive/%{upstream_version}.tar.gz
 
 BuildArch:      noarch
 
@@ -58,4 +53,7 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/midonet/
 
 
 %changelog
+* Mon Feb 13 2017 Alfredo Moralejo <amoralej@redhat.com> 1:1.1.0-1
+- Update to 1.1.0
+
 
