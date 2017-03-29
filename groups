@@ -1,6 +1,10 @@
-# UUID                                  	Group Name
-#
-63673ea7f2ae6a5666566b1ea9f14e473d00f5a9	rdo-core
-c04b3b64b1d6590fc7cc57a1c958f3a64d618fdd	puppet/puppet-midonet-distgit-ptl
-cd9488d8b6f486bf61478831df4bbb4a0551b0e1	puppet/puppet-midonet-distgit-core
-global:Registered-Users                 	Registered Users
+# UUID Group Name
+global:Registered-Users	Registered Users
+fc7c2ee6bf2a7ad3540c5b812b4c144209607ca1	rdo-opm-core
+4572c517702492251ad622a289176552a8acbbb2	rdo-superusers
+global:Anonymous-Users	Anonymous Users
+49ffebb0bcf7b05131fb36459ff5b53b45b0d287	puppet/puppet-midonet-ptl
+05a678d3d4a168e149d5e8a0063bbd1b1c5526da	Administrators
+401cf37bee35d1c809d4d957e55f2a304f8eed69	rdo-provenpackagers
+6ddfecad023c6f4fa3ac8c4d2583c502ea675a73	Non-Interactive Users
+8dbbb7d91fdb803460e9d438e338c7f43116565b	puppet/puppet-midonet-core
