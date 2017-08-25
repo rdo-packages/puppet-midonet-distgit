@@ -1,6 +1,6 @@
 %{!?upstream_version: %global upstream_version %{commit}}
 %define upstream_name puppet-midonet
-%global commit bafa9e9bc3e683cd3ceb2650eb174cf707a2837e
+%global commit 4a44c3351c3a007d5e827cb732a09b252bdb9074
 %global shortcommit %(c=%{commit}; echo ${c:0:7})
 # DO NOT REMOVE ALPHATAG
 %global alphatag .%{shortcommit}git
@@ -9,8 +9,8 @@
 Name:           puppet-midonet
 # Bumped epoch after repo movement from github.com/midonet to github.com/openstack
 Epoch:          1
-Version:        XXX
-Release:        XXX
+Version:        1.1.0
+Release:        2%{?alphatag}%{?dist}
 Summary:        Configure and install MidoNet components
 License:        ASL 2.0
 
@@ -58,5 +58,8 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/midonet/
 
 
 %changelog
+* Fri Aug 25 2017 Haïkel Guémar <hguemar@fedoraproject.org> - 1:1.1.0-2.4a44c33git
+- Pike update 1.1.0 (4a44c3351c3a007d5e827cb732a09b252bdb9074)
+
 
 
