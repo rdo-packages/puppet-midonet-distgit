@@ -14,9 +14,9 @@ Release:        XXX
 Summary:        Configure and install MidoNet components
 License:        ASL 2.0
 
-URL:            https://github.com/midonet/puppet-midonet
+URL:            https://github.com/openstack/puppet-midonet
 
-Source0:        https://github.com/midonet/%{upstream_name}/archive/%{commit}.tar.gz#/%{upstream_name}-%{shortcommit}.tar.gz
+Source0:        https://github.com/openstack/%{upstream_name}/archive/%{commit}.tar.gz#/%{upstream_name}-%{shortcommit}.tar.gz
 
 BuildArch:      noarch
 
