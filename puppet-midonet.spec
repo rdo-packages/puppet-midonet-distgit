@@ -1,5 +1,9 @@
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
+%if 0%{?dlrn}
+%define upstream_name openstack-midonet
+%else
 %define upstream_name puppet-midonet
+%endif
 
 Name:           puppet-midonet
 # Bumped epoch after repo movement from github.com/midonet to github.com/openstack
@@ -29,7 +33,7 @@ Requires:       puppet >= 2.7.0
 Configure and install MidoNet components
 
 %prep
-%setup -q -n %{name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{upstream_version}
 
 find . -type f -name ".*" -exec rm {} +
 find . -size 0 -exec rm {} +
