@@ -1,5 +1,9 @@
 %{!?upstream_version: %global upstream_version %{commit}}
+%if 0%{?dlrn}
+%define upstream_name openstack-midonet
+%else
 %define upstream_name puppet-midonet
+%endif
 %global commit bafa9e9bc3e683cd3ceb2650eb174cf707a2837e
 %global shortcommit %(c=%{commit}; echo ${c:0:7})
 # DO NOT REMOVE ALPHATAG
@@ -34,7 +38,7 @@ Requires:       puppet >= 2.7.0
 Configure and install MidoNet components
 
 %prep
-%setup -q -n %{name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{upstream_version}
 
 find . -type f -name ".*" -exec rm {} +
 find . -size 0 -exec rm {} +
