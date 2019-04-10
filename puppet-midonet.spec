@@ -57,3 +57,4 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/midonet/
 - Update to 1.1.0
 
 
+# REMOVEME: error caused by commit http://git.openstack.org/cgit/openstack/puppet-midonet/commit/?id=9954ca784eb36935b51d5367d2d486d3caa03a07
