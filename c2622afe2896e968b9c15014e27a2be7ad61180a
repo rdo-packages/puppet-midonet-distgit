@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "084a33d9_6b4d3154",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 682
+      },
+      "writtenOn": "2022-04-06T14:28:32Z",
+      "side": 1,
+      "message": "puppet-midonet is no longer required by TripleO: https://review.rdoproject.org/r/c/puppet/puppet-tripleo-distgit/+/34071\n\nNot sure whether there is any users still using midonet these days.",
+      "revId": "c2622afe2896e968b9c15014e27a2be7ad61180a",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
