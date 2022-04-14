@@ -16,6 +16,24 @@
       "message": "puppet-midonet is no longer required by TripleO: https://review.rdoproject.org/r/c/puppet/puppet-tripleo-distgit/+/34071\n\nNot sure whether there is any users still using midonet these days.",
       "revId": "c2622afe2896e968b9c15014e27a2be7ad61180a",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0110e0ac_44ff7ab1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 635
+      },
+      "writtenOn": "2022-04-14T09:58:39Z",
+      "side": 1,
+      "message": "Let\u0027s build it for Yoga and remove it from Zed",
+      "parentUuid": "084a33d9_6b4d3154",
+      "revId": "c2622afe2896e968b9c15014e27a2be7ad61180a",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
